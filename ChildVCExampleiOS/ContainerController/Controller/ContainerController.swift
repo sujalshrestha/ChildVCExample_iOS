@@ -19,7 +19,6 @@ class ContainerController: UITableViewController {
 
     fileprivate func setupTableView() {
         navigationItem.title = "ChildVC Example"
-        self.tableView = UITableView(frame: self.tableView.frame, style: .grouped)
         tableView.register(ContainerCell.self, forCellReuseIdentifier: containerTableId)
         tableView.separatorStyle = .none
     }

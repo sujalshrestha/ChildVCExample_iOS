@@ -158,7 +158,7 @@
 		045C3145215741E70051D252 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				045C31492157423A0051D252 /* Controller */,
+				045C3147215741FC0051D252 /* ChildController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,14 +170,6 @@
 				045C314B215742510051D252 /* ContentCell.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		045C31492157423A0051D252 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				045C3147215741FC0051D252 /* ChildController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
